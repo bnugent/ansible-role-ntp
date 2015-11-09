@@ -1,0 +1,11 @@
+---
+ntp_client_pkg_name: ntp
+ntp_client_pkg_state: latest
+ntp_client_config_servers:
+  - 0.pool.ntp.org
+  - 1.pool.ntp.org
+  - 2.pool.ntp.org
+  - 3.pool.ntp.org
+ntp_client_service_name: ntp
+ntp_client_service_enabled: yes
+ntp_client_service_state: started

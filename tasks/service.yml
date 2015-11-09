@@ -1,0 +1,7 @@
+---
+- name: Start NTP service
+  service:
+    name: "{{ ntp_client_service_name }}"
+    enabled: "{{ ntp_client_service_enabled }}"
+    state: "{{ ntp_client_service_state }}"
+  when: ansible_virtualization_type != "lxc"
