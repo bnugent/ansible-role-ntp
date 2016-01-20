@@ -1,7 +1,7 @@
 Role Name
 =========
 
-This role installs and configures NTP client and server.
+This role installs and configures NTP client and server on Ubuntu.
 
 
 Role Variables
