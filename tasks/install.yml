@@ -3,4 +3,3 @@
   apt:
     name: "{{ ntp_client_pkg_name }}"
     state: "{{ ntp_client_pkg_state }}"
-  when: ansible_virtualization_type != "lxc"
